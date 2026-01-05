@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "search":"npx playwright test --grep @search",
+    "simple":"npx playwright test --grep @simple",
+    "dummy":"npx playwright test --grep @dummy"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/amitbunty2052/playwrightTest.git"
